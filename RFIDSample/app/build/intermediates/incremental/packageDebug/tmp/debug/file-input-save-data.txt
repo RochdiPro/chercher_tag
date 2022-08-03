@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Tue Aug 02 14:30:12 WAT 2022
+1.base=D\:\\github\\chercher_tag\\RFIDSample\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+2.path=db.csv
+0.baseType=DIRECTORY
+2.base=D\:\\github\\chercher_tag\\RFIDSample\\app\\build\\intermediates\\merged_assets\\debug\\out
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\github\\chercher_tag\\RFIDSample\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+2.baseType=DIRECTORY
+1.path=classes.dex
