@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\github\\chercher_tag\\RFIDSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
+            "outputFile": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\8a3f5557448c7187542040b8429575ae\\res\\values-ru\\values-ru.xml",

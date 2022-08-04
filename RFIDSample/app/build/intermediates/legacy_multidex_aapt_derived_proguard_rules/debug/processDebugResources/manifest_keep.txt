@@ -1,2 +1,2 @@
-# Referenced at D:\github\chercher_tag\RFIDSample\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:16
+# Referenced at D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:16
 -keep class android.support.multidex.MultiDexApplication { <init>(); }

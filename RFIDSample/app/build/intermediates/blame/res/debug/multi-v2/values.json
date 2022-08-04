@@ -1,80 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\github\\chercher_tag\\RFIDSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_close_rfid_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "58",
-                        "endOffsets": "111"
-                    },
-                    "to": {
-                        "startLines": "49",
-                        "startColumns": "4",
-                        "startOffsets": "3323",
-                        "endColumns": "58",
-                        "endOffsets": "3377"
-                    }
-                },
-                {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "54,374",
-                        "endLines": "8,13",
-                        "endColumns": "12,12",
-                        "endOffsets": "368,519"
-                    },
-                    "to": {
-                        "startLines": "211,217",
-                        "startColumns": "4,4",
-                        "startOffsets": "14143,14462",
-                        "endLines": "216,220",
-                        "endColumns": "12,12",
-                        "endOffsets": "14457,14607"
-                    }
-                },
-                {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_mode_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "52",
-                        "endOffsets": "105"
-                    },
-                    "to": {
-                        "startLines": "55",
-                        "startColumns": "4",
-                        "startOffsets": "3669",
-                        "endColumns": "52",
-                        "endOffsets": "3717"
-                    }
-                },
-                {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,8,7,9,5,3,4",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "16,346,261,430,182,66,130",
-                        "endColumns": "48,83,84,65,77,63,51",
-                        "endOffsets": "60,425,341,491,255,125,177"
-                    },
-                    "to": {
-                        "startLines": "199,201,202,203,204,205,206",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "13250,13370,13454,13539,13605,13683,13747",
-                        "endColumns": "48,83,84,65,77,63,43",
-                        "endOffsets": "13294,13449,13534,13600,13678,13742,13786"
-                    }
-                },
-                {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_chercher_background.xml",
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_chercher_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -91,41 +21,24 @@
                     }
                 },
                 {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3,6,7",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "153,55,102,200,256",
-                        "endColumns": "45,46,50,55,44",
-                        "endOffsets": "194,97,148,251,296"
-                    },
-                    "to": {
-                        "startLines": "32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "2186,2232,2279,2330,2386",
-                        "endColumns": "45,46,50,55,44",
-                        "endOffsets": "2227,2274,2325,2381,2426"
-                    }
-                },
-                {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_close_connection_background.xml",
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_delete_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "57",
-                        "endColumns": "64",
-                        "endOffsets": "117"
+                        "endColumns": "54",
+                        "endOffsets": "107"
                     },
                     "to": {
-                        "startLines": "48",
+                        "startLines": "52",
                         "startColumns": "4",
-                        "startOffsets": "3258",
-                        "endColumns": "64",
-                        "endOffsets": "3318"
+                        "startOffsets": "3500",
+                        "endColumns": "54",
+                        "endOffsets": "3550"
                     }
                 },
                 {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_open_background.xml",
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_open_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -142,7 +55,109 @@
                     }
                 },
                 {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_connecter_background.xml",
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3,6,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "153,55,102,200,256",
+                        "endColumns": "45,46,50,55,44",
+                        "endOffsets": "194,97,148,251,296"
+                    },
+                    "to": {
+                        "startLines": "32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "2186,2232,2279,2330,2386",
+                        "endColumns": "45,46,50,55,44",
+                        "endOffsets": "2227,2274,2325,2381,2426"
+                    }
+                },
+                {
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_mode_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "52",
+                        "endOffsets": "105"
+                    },
+                    "to": {
+                        "startLines": "55",
+                        "startColumns": "4",
+                        "startOffsets": "3669",
+                        "endColumns": "52",
+                        "endOffsets": "3717"
+                    }
+                },
+                {
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,8,7,9,5,3,4",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "16,346,261,430,182,66,130",
+                        "endColumns": "48,83,84,65,77,63,51",
+                        "endOffsets": "60,425,341,491,255,125,177"
+                    },
+                    "to": {
+                        "startLines": "199,201,202,203,204,205,206",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "13250,13370,13454,13539,13605,13683,13747",
+                        "endColumns": "48,83,84,65,77,63,43",
+                        "endOffsets": "13294,13449,13534,13600,13678,13742,13786"
+                    }
+                },
+                {
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
+                    },
+                    "to": {
+                        "startLines": "155,156",
+                        "startColumns": "4,4",
+                        "startOffsets": "10376,10434",
+                        "endColumns": "57,55",
+                        "endOffsets": "10429,10485"
+                    }
+                },
+                {
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_deconnecter_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "59",
+                        "endOffsets": "112"
+                    },
+                    "to": {
+                        "startLines": "51",
+                        "startColumns": "4",
+                        "startOffsets": "3440",
+                        "endColumns": "59",
+                        "endOffsets": "3495"
+                    }
+                },
+                {
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_close_connection_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "64",
+                        "endOffsets": "117"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "3258",
+                        "endColumns": "64",
+                        "endOffsets": "3318"
+                    }
+                },
+                {
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_connecter_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -159,20 +174,37 @@
                     }
                 },
                 {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_delete_background.xml",
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "57",
-                        "endColumns": "54",
-                        "endOffsets": "107"
+                        "endColumns": "56",
+                        "endOffsets": "109"
                     },
                     "to": {
-                        "startLines": "52",
+                        "startLines": "54",
                         "startColumns": "4",
-                        "startOffsets": "3500",
-                        "endColumns": "54",
-                        "endOffsets": "3550"
+                        "startOffsets": "3612",
+                        "endColumns": "56",
+                        "endOffsets": "3664"
+                    }
+                },
+                {
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_rfid_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "52",
+                        "endOffsets": "105"
+                    },
+                    "to": {
+                        "startLines": "57",
+                        "startColumns": "4",
+                        "startOffsets": "3775",
+                        "endColumns": "52",
+                        "endOffsets": "3823"
                     }
                 },
                 {
@@ -195,41 +227,7 @@
                     }
                 },
                 {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "88,146",
-                        "endColumns": "57,55",
-                        "endOffsets": "141,197"
-                    },
-                    "to": {
-                        "startLines": "155,156",
-                        "startColumns": "4,4",
-                        "startOffsets": "10376,10434",
-                        "endColumns": "57,55",
-                        "endOffsets": "10429,10485"
-                    }
-                },
-                {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "54",
-                        "startColumns": "4",
-                        "startOffsets": "3612",
-                        "endColumns": "56",
-                        "endOffsets": "3664"
-                    }
-                },
-                {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_exporter_background.xml",
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_exporter_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -246,37 +244,39 @@
                     }
                 },
                 {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_deconnecter_background.xml",
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\ic_close_rfid_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "57",
-                        "endColumns": "59",
-                        "endOffsets": "112"
+                        "endColumns": "58",
+                        "endOffsets": "111"
                     },
                     "to": {
-                        "startLines": "51",
+                        "startLines": "49",
                         "startColumns": "4",
-                        "startOffsets": "3440",
-                        "endColumns": "59",
-                        "endOffsets": "3495"
+                        "startOffsets": "3323",
+                        "endColumns": "58",
+                        "endOffsets": "3377"
                     }
                 },
                 {
-                    "source": "D:\\github\\chercher_tag\\RFIDSample\\app\\src\\main\\res\\values\\ic_rfid_background.xml",
+                    "source": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "52",
-                        "endOffsets": "105"
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "54,374",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "368,519"
                     },
                     "to": {
-                        "startLines": "57",
-                        "startColumns": "4",
-                        "startOffsets": "3775",
-                        "endColumns": "52",
-                        "endOffsets": "3823"
+                        "startLines": "211,217",
+                        "startColumns": "4,4",
+                        "startOffsets": "14143,14462",
+                        "endLines": "216,220",
+                        "endColumns": "12,12",
+                        "endOffsets": "14457,14607"
                     }
                 }
             ]

@@ -55,12 +55,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView textViewConnectedDevice;
     TextView textViewTotalScanCount;
     Button btnexporterdata;
-    Button buttonreadone;
-    Button chercherone;
-    TextView idtag;
-    Button btn_inventory ;
-    Button btn_chercher ;
-    Button btn_lire ;
+    Button btn_chercher;
+    Button btn_res;
+    TextView open_text;
+    TextView chercher_text;
+    TextView lister_text ;
 
     private final int MSG_COMMAND_SET_RFID_DEFAULT = 1;
     private final int MSG_COMMAND_SET_RFID_INVENTORY_PARAM = 2;
@@ -87,6 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     static String deviceName = "";
     static boolean deviceConnected = false;
     boolean isRfidRunning = false;
+    boolean ischerche = false;
     boolean isOpened = false;
     ProgressDialog progressDialog;
     Handler dialogHandler;
@@ -190,11 +190,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private RFIDCallback mRFIDCallback = new RFIDCallback(mhandler) {
         public void onNotifyReceivedPacket(RecvPacket recvPacket){
             Log.i("RFID_callbacks","onNotifyReceivedPacket");
+            Log.i("state","onNotifyChangedState onNotifyReceivedPacket cccccccccc: ["+recvPacket+"]");
+
             if (!isConnected()) {
                 Log.i("MainActivity", "Device not connected.");
                 return;
             }
-
             addScanData(recvPacket.RecvString);
         };
 
@@ -206,8 +207,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         public void onNotifyChangedState(int state)
         {
-            Log.i("RFID_callbacks","onNotifyChangedState");
-            switch(state) {
+             Log.i("RFID_callbacks","onNotifyChangedState");
+             switch(state) {
                 case 1: // RFIDConst.DeviceState.BT_CONNECTED:
                     Log.i("RFID_callbacks","onNotifyChangedState BT_CONNECTED : ["+state+"]");
                     break;
@@ -258,6 +259,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case 16: // RFIDConst.DeviceState.POWER_OFF:
                     Log.i("RFID_callbacks","onNotifyChangedState POWER_OFF : ["+state+"]");
                     break;
+
                 default:
                     break;
             }
@@ -319,7 +321,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     };
 
     private void initControls() {
-
+        buttonConnectToDevice = (Button) findViewById(R.id.button_device_connect);
+        if (buttonConnectToDevice != null) {
+            buttonConnectToDevice.setOnClickListener(this);
+        }
         buttonSearchDevice = (Button) findViewById(R.id.button_device_search);
         if (buttonSearchDevice != null) {
             buttonSearchDevice.setOnClickListener(this);
@@ -328,39 +333,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (buttonOpen != null) {
             buttonOpen.setOnClickListener(this);
         }
-       /* buttonConnectedDevice = (Button) findViewById(R.id.button_connected_device);
-        if (buttonConnectedDevice != null) {
-            buttonConnectedDevice.setOnClickListener(this);
-        }
+
         buttonScanRFID = (Button) findViewById(R.id.button_scan_rfid);
         if (buttonScanRFID != null) {
             buttonScanRFID.setOnClickListener(this);
-        }*/
+        }
+
+        btn_res = (Button) findViewById(R.id.btn_res);
+
+
+        btn_chercher = (Button) findViewById(R.id.btn_chercher);
+        btn_chercher.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                 ischerche = !(ischerche) ;
+                if(ischerche) {  startRfidcherche(); }
+                else  {  stopRfidcherche();  }
+            }});
+
+
         buttonScanDelete = (Button) findViewById(R.id.button_scan_delete);
         if (buttonScanDelete != null) {
             buttonScanDelete.setOnClickListener(this);
         }
-       // textViewConnectedDevice = (TextView) findViewById(R.id.textView_connected_device);
+        textViewConnectedDevice = (TextView) findViewById(R.id.textView_connected_device);
         textViewTotalScanCount = (TextView) findViewById(R.id.textView_total_count_ea);
-
-        btn_lire = (Button) findViewById(R.id.btn_lire);
-        btn_lire.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startRfidScan2();
-            }});
-
-        btn_chercher = (Button) findViewById(R.id.btn_lire);
-        btn_chercher.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                System.out.println("dddddddd");
-                startRfidScan3();
-            }});
-
-        btn_inventory = (Button) findViewById(R.id.btn_lire);
-        btn_inventory.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startRfidScan();
-            }});
+        open_text = (TextView) findViewById(R.id.open_text);
+        chercher_text = (TextView) findViewById(R.id.chercher_text);
+        lister_text =(TextView) findViewById(R.id.lister_text);
 
         baseAdapterInventoryListView = new BaseAdapter_Inventory_ListView(this);
         inventoryListView = (ListView) findViewById(R.id.listview_inventory);
@@ -441,6 +440,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
+
+
+
+
     private void deviceConfigSetting() {
         handler.sendMessageDelayed(handler.obtainMessage(MSG_COMMAND_SET_RFID_DEFAULT, 0, 0, null), 200);
         handler.sendMessageDelayed(handler.obtainMessage(MSG_COMMAND_SET_RFID_INVENTORY_PARAM, 0, 0, null), 400);
@@ -482,20 +485,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void updateUI() {
         StringBuilder stringBuilder = new StringBuilder();
         if (isConnected()) {
-           /// stringBuilder.append("Appareil : ");
-           // stringBuilder.append(connectedDeviceMacAddress);
-           // textViewConnectedDevice.setText(stringBuilder);
+            stringBuilder.append("Appareil : ");
+            stringBuilder.append(connectedDeviceMacAddress);
+            textViewConnectedDevice.setText(stringBuilder);
           //  buttonConnectToDevice.setText("DISCONNECT");
 
-//            buttonConnectToDevice.setBackgroundResource(R.drawable.ic_deconnecter_foreground);
+            buttonConnectToDevice.setBackgroundResource(R.drawable.ic_deconnecter_foreground);
         } else {
-          //  stringBuilder.append("Appareil : -");
-          //  textViewConnectedDevice.setText(stringBuilder);
+            stringBuilder.append("Appareil : -");
+            textViewConnectedDevice.setText(stringBuilder);
          //   buttonConnectToDevice.setText("CONNECT");
         }
     }
 
     private void addScanData(final String data) {
+        System.out.println(data);
+        if(data.split(",").length>1) {
+            if (Integer.parseInt(data.split(",")[1].split("=")[1])<31) {
+               // stopRfidcherche();
+                btn_res.setBackgroundResource(R.color.ic_connecter_background);
+
+            }
+        }
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -563,21 +574,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button_device_search:
                 runDeviceSearchActivity();
                 break;
-//            case R.id.button_device_connect:
-//                if (isConnected()) {
-//                    if(isRfidRunning == true)
-//                        Toast.makeText(this, getString(R.string.string_rfid_stop), Toast.LENGTH_SHORT).show();
-//                    else
-//                        setDisconnect();
-//                } else {
-//                    if (connectedDeviceMacAddress != null) {
-//                        showWaitDialog();
-//                        Log.i("MainActivity", "connectedDeviceMacAddress : ["+connectedDeviceMacAddress+"]");
-//                        setConnect(connectedDeviceMacAddress, deviceName);
-//                    }
-//                }
-//                updateUI();
-//                break;
+            case R.id.button_device_connect:
+                if (isConnected()) {
+                    if(isRfidRunning == true)
+                        Toast.makeText(this, getString(R.string.string_rfid_stop), Toast.LENGTH_SHORT).show();
+                    else
+                        setDisconnect();
+                } else {
+                    if (connectedDeviceMacAddress != null) {
+                        showWaitDialog();
+                        Log.i("MainActivity", "connectedDeviceMacAddress : ["+connectedDeviceMacAddress+"]");
+                        setConnect(connectedDeviceMacAddress, deviceName);
+                    }
+                }
+                updateUI();
+                break;
             case R.id.button_open:
                 if (isOpened) {
                     rfidManager.Close();
@@ -585,8 +596,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         deviceConnected = false;
                     }
                     isOpened = false;
-                 //   setTextOpenCloseButton("Open");
-                //    buttonOpen.setBackgroundResource(R.drawable.ic_open_foreground);
+                    //setTextOpenCloseButton("Open");
+                    buttonOpen.setBackgroundResource(R.drawable.ic_open_foreground);
+                    StringBuilder stringBuilder = new StringBuilder();
+                    stringBuilder.append( " Ouvrire");
+                    open_text.setText(stringBuilder);
+
 
                 } else {
                     if (RFIDConst.CommandErr.SUCCESS == rfidManager.Open(mConnectedDevice)) {
@@ -594,9 +609,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             deviceConnected = true;
                         }
                         isOpened = true;
-                    //    setTextOpenCloseButton("Close");
-                    //    buttonOpen.setBackgroundResource(R.drawable.ic_deconnecter_foreground);
-
+                        //setTextOpenCloseButton("Close");
+                        buttonOpen.setBackgroundResource(R.drawable.ic_deconnecter_foreground);
+                        StringBuilder stringBuilder = new StringBuilder();
+                        stringBuilder.append( " Fermer");
+                        open_text.setText(stringBuilder);
                         deviceConfigSetting();
                     } else {
                         Log.e(TAG, "Open failed!!!");
@@ -604,24 +621,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 //updateUI();
                 break;
-         /*   case R.id.button_connected_device:
-                if (mConnectedDevice == DEVICE_BT) {
-                    setTextConnectedDevice("USB");
-                    mConnectedDevice = DEVICE_USB;
-                    buttonConnectToDevice.setVisibility(View.INVISIBLE);
-                    buttonSearchDevice.setVisibility(View.INVISIBLE);
-                } else if (mConnectedDevice == DEVICE_USB) {
-                    setTextConnectedDevice("UART");
-                    mConnectedDevice = DEVICE_UART;
-                    buttonConnectToDevice.setVisibility(View.INVISIBLE);
-                    buttonSearchDevice.setVisibility(View.INVISIBLE);
-                } else {
-                    setTextConnectedDevice("BT");
-                    mConnectedDevice = DEVICE_BT;
-                    buttonConnectToDevice.setVisibility(View.VISIBLE);
-                    buttonSearchDevice.setVisibility(View.VISIBLE);
-                }
-                break;
+
             case R.id.button_scan_rfid:
                 if (isConnected()) {
                     if (isRfidRunning) {
@@ -635,7 +635,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 clearScanData();
                 buttonScanDelete.setBackgroundResource(R.drawable.ic_delete_foreground);
 
-                break;*/
+                break;
         }
     }
 
@@ -643,58 +643,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (!isRfidRunning) {
             isRfidRunning = true;
             //rfidManager.StartInventory_ext(1, 0, 0);
-            rfidManager.StartInventory();
+             rfidManager.StartInventory();
 
             // for Tag functions test
             //rfidManager.ReadTag(1, 2, 0, "0");
-           // rfidManager.SetBtDefault();
-          //  rfidManager.WildcardSearch(5, "3400*");
-          //  rfidManager.SingleSearch(28, "34003003411000000000000005", 9, 3);
+            //rfidManager.SetBtDefault();
+            //rfidManager.WildcardSearch(5, "3000*");
+          //  rfidManager.SingleSearch(28, "30003000a0100000000000000039", 9, 3);
             //30003000a0100000000000000039
-          //  rfidManager.SingleSearch(24, "3000e2005024990200362230", 9, 3);
+            //rfidManager.SingleSearch(24, "3000e2005024990200362230", 9, 3);
             //3000e2005024990200362230
-           // rfidManager.GetSearchList();
+            //rfidManager.GetSearchList();
 
+
+          //  int x = rfidManager.SingleSearch(28, "3400003003411000000000000005", 9, 3);
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
                     //setTextRFIDButton("STOP");
-                  //  buttonScanRFID.setBackgroundResource(R.drawable.ic_close_rfid_foreground);
+                    buttonScanRFID.setBackgroundResource(R.drawable.ic_close_rfid_foreground);
+                    StringBuilder stringBuilder = new StringBuilder();
+                    stringBuilder.append( "   Stop");
+                    lister_text.setText(stringBuilder);
                 }
             });
         }
     }
 
-    private void startRfidScan2() {
-        if (!isRfidRunning) {
-            isRfidRunning = true;
-             rfidManager.StartInventory_ext(1, 0, 0);
-            runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    //setTextRFIDButton("STOP");
-                  //  buttonScanRFID.setBackgroundResource(R.drawable.ic_close_rfid_foreground);
-                }
-            });
-        }
-    }
-    private void startRfidScan3() {
-        System.out.println("bbbbbbb");
-
-        if (!isRfidRunning) {
-            isRfidRunning = true;
-            System.out.println("bbbbbbb");
-            rfidManager.SingleSearch(28, "3400003003411000000000000005", 9, 3);
-            rfidManager.GetSearchList();
-            runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    //setTextRFIDButton("STOP");
-                   // buttonScanRFID.setBackgroundResource(R.drawable.ic_close_rfid_foreground);
-                }
-            });
-        }
-    }
     private void stopRfidScan() {
         if (isRfidRunning) {
             isRfidRunning = false;
@@ -704,20 +679,62 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 @Override
                 public void run() {
                    // setTextRFIDButton("RFID");
-//                    buttonScanRFID.setBackgroundResource(R.drawable.ic_rfid_foreground);
+                    buttonScanRFID.setBackgroundResource(R.drawable.ic_rfid_foreground);
+                    StringBuilder stringBuilder = new StringBuilder();
+                    stringBuilder.append( "   Lister");
+                    lister_text.setText(stringBuilder);
                 }
             });
         }
     }
 
 
+    private void startRfidcherche() {
+        if (!isRfidRunning) {
+            isRfidRunning = true;
+
+            btn_res.setBackgroundResource(R.color.colorWhite);
+
+            int x = rfidManager.SingleSearch(28, "3400003003411000000000000005", 9, 3);
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    //setTextRFIDButton("STOP");
+                    btn_chercher.setBackgroundResource(R.drawable.ic_close_rfid_foreground);
+                    StringBuilder stringBuilder = new StringBuilder();
+                    stringBuilder.append( "   Stop");
+                    chercher_text.setText(stringBuilder);
+
+                }
+            });
+        }
+    }
+
+    private void stopRfidcherche() {
+        if (isRfidRunning) {
+            isRfidRunning = false;
+            rfidManager.Stop();
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    // setTextRFIDButton("RFID");
+                    btn_chercher.setBackgroundResource(R.drawable.ic_rfid_foreground);
+                    StringBuilder stringBuilder = new StringBuilder();
+                    stringBuilder.append( "   TAG");
+                    chercher_text.setText(stringBuilder);
+                    btn_res.setBackgroundResource(R.color.colorWhite);
+
+                }
+            });
+        }
+    }
 
     private void setTextRFIDButton(String text) {
         buttonScanRFID.setText(text);
     }
 
     private void setTextOpenCloseButton(String text) {
-        //buttonOpen.setText(text);
+        buttonOpen.setText(text);
     }
 
     private void setTextConnectedDevice(String text) {
