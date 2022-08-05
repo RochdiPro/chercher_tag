@@ -5,8 +5,8 @@ android {
     buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "demo.rfid"
-        minSdkVersion 14
-        targetSdkVersion 28
+        minSdkVersion 21
+        targetSdkVersion 29
         multiDexEnabled true
         versionCode 1
         versionName "1.0"
@@ -25,11 +25,15 @@ android {
 dependencies {
 
     implementation files('libs\\opencsv-4.1.jar')
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.android.support:design:28.0.0'
     compileOnly fileTree(dir: 'libs', include: ['*.jar'])
    // testCompile 'junit:junit:4.12'
    // compile 'com.android.support:appcompat-v7:23.1.1'
     implementation 'com.android.support:appcompat-v7:23.2.0'
     compileOnly files('sdk/device.sdk.jar')
+    compile 'com.android.support:design:28.0.0'
+
     //androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
     //    exclude group: 'com.android.support', module: 'support-annotations'
     //}

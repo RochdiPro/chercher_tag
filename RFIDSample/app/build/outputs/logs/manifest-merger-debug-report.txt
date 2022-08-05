@@ -1,146 +1,232 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:1-42:12
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0cb0bea216dbc8025868092367ec36be\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8a3f5557448c7187542040b8429575ae\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\48be3bf23921cde7b43615c6d2853f82\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\509e156fa9b122df39e6cf60a305e9b9\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f32bca9e5d0a0c29a35810b5975ba10f\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\048900975f96363eb4e0562f677a1ab0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\07dd7d0f5ae57cd7f50eaed6cbba49d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d476a41a6b97c51ab724cef75d2fcd19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0b3feab4362d7fec47c215c08e3f1856\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\08816b7a5626953d9ee8a88c934d7371\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\81932a0fd5c141d925c3372498cd5774\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\61ef210b95d07173507aba642a003998\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6726070df4a838d33246e2df56ea646b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fe3b03f556925a795ab3a5676381ba94\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b08f7e1f08c5b285729119140c9db46d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a6bfcbbaef3463eb72d26b8a1a75c20f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5ac995773d0b20684dd97e837e04054a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1788041c372f589cea30518709461b8b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8e16e59fd88fbc83e56acb60292fde53\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fc52f594d9c8d1f08f88d95b950979bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\11de1590e568f33ca798f1c6ea9b95e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0c44defb4bfcfda4279d6ef1200d2d40\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\91ca68b7ec03ea377aba1b0a16a80e75\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\917217b58829a121dffc5795471f17af\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f35b89bc63ee23f32f9efdcf8f5c403e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1e8a45e3dfb959fcf1ca5488099602dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\66cf6684b478e375b73a210870ff6dc2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2cef8eafd81d0197207fa46abccc4338\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\57cc6f5c2249e0264b4ee923d78d2235\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e24489d15c0276bd0473a072dc8dd9bd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d60e2b68cfbf7f16223e5b4742068f84\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\49235eab77913106798f28738db6c9f7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3d5a5a1213912542646f6878de5a456d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5d56f282f7a447767977db1277b85702\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:3:5-24
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:3:5-24
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:1-42:12
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:1-42:12
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.BLUETOOTH
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:5:5-68
-	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:5:22-65
-uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:6:5-74
-	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:6:22-71
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:7:5-80
-	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:7:22-78
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:8:5-80
-	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:9:5-40:19
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8a3f5557448c7187542040b8429575ae\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8a3f5557448c7187542040b8429575ae\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\48be3bf23921cde7b43615c6d2853f82\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\48be3bf23921cde7b43615c6d2853f82\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\509e156fa9b122df39e6cf60a305e9b9\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\509e156fa9b122df39e6cf60a305e9b9\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f32bca9e5d0a0c29a35810b5975ba10f\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f32bca9e5d0a0c29a35810b5975ba10f\AndroidManifest.xml:22:5-20
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:5:5-45:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0c44defb4bfcfda4279d6ef1200d2d40\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0c44defb4bfcfda4279d6ef1200d2d40\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\917217b58829a121dffc5795471f17af\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\917217b58829a121dffc5795471f17af\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0c44defb4bfcfda4279d6ef1200d2d40\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:12:9-37
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:8:9-37
 	android:icon
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:14:9-40
-uses-library#device.sdk
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:15:9-75
-	android:required
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:15:49-72
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:10:9-40
+activity#demo.rfid.menu2
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:11:9-52
 	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:15:23-48
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:11:19-40
+activity#demo.rfid.MainActivity2
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:12:9-51
+	android:name
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:12:19-48
 activity#demo.rfid.SplashActivity
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:16:9-24:20
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:13:9-22:20
 	android:screenOrientation
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:18:13-49
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:15:13-49
 	android:theme
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:19:13-60
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:16:13-60
 	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:17:13-52
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:14:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:20:13-23:29
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:21:17-68
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:22:17-76
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:20:27-74
 activity#demo.rfid.MainActivity
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:25:9-29:20
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:23:9-26:59
 	android:screenOrientation
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:25:13-49
 	android:theme
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:26:13-50
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:24:13-41
 activity#demo.rfid.DeviceSearchActivity
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:30:9-34:20
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:27:9-30:59
 	android:screenOrientation
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:32:13-49
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:29:13-49
 	android:theme
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:31:13-58
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:28:13-49
 provider#android.support.v4.content.FileProvider
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:35:9-39:20
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:32:9-40:20
 	android:grantUriPermissions
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:35:99-133
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:36:13-47
 	android:authorities
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:35:134-190
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:34:13-69
 	android:exported
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:35:74-98
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:35:19-73
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:33:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:37:9-111
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:37:13-39:58
 	android:resource
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:37:71-109
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:39:17-55
 	android:name
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml:37:20-70
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:38:17-67
+uses-library#device.sdk
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:42:9-44:39
+	android:required
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:43:13-38
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:46:5-81
+	android:name
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:46:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:47:5-68
+	android:name
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:47:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:48:5-74
+	android:name
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:48:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:50:5-81
+	android:name
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:50:22-78
 uses-sdk
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0cb0bea216dbc8025868092367ec36be\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0cb0bea216dbc8025868092367ec36be\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8a3f5557448c7187542040b8429575ae\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8a3f5557448c7187542040b8429575ae\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\48be3bf23921cde7b43615c6d2853f82\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\48be3bf23921cde7b43615c6d2853f82\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\509e156fa9b122df39e6cf60a305e9b9\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\509e156fa9b122df39e6cf60a305e9b9\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f32bca9e5d0a0c29a35810b5975ba10f\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f32bca9e5d0a0c29a35810b5975ba10f\AndroidManifest.xml:20:5-43
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8a3f5557448c7187542040b8429575ae\AndroidManifest.xml:23:9-75
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\048900975f96363eb4e0562f677a1ab0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\048900975f96363eb4e0562f677a1ab0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\07dd7d0f5ae57cd7f50eaed6cbba49d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\07dd7d0f5ae57cd7f50eaed6cbba49d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d476a41a6b97c51ab724cef75d2fcd19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d476a41a6b97c51ab724cef75d2fcd19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0b3feab4362d7fec47c215c08e3f1856\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0b3feab4362d7fec47c215c08e3f1856\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\08816b7a5626953d9ee8a88c934d7371\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\08816b7a5626953d9ee8a88c934d7371\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\81932a0fd5c141d925c3372498cd5774\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\81932a0fd5c141d925c3372498cd5774\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\61ef210b95d07173507aba642a003998\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\61ef210b95d07173507aba642a003998\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6726070df4a838d33246e2df56ea646b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6726070df4a838d33246e2df56ea646b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fe3b03f556925a795ab3a5676381ba94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fe3b03f556925a795ab3a5676381ba94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b08f7e1f08c5b285729119140c9db46d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b08f7e1f08c5b285729119140c9db46d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a6bfcbbaef3463eb72d26b8a1a75c20f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a6bfcbbaef3463eb72d26b8a1a75c20f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5ac995773d0b20684dd97e837e04054a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5ac995773d0b20684dd97e837e04054a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1788041c372f589cea30518709461b8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1788041c372f589cea30518709461b8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8e16e59fd88fbc83e56acb60292fde53\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8e16e59fd88fbc83e56acb60292fde53\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fc52f594d9c8d1f08f88d95b950979bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fc52f594d9c8d1f08f88d95b950979bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\11de1590e568f33ca798f1c6ea9b95e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\11de1590e568f33ca798f1c6ea9b95e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0c44defb4bfcfda4279d6ef1200d2d40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0c44defb4bfcfda4279d6ef1200d2d40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\91ca68b7ec03ea377aba1b0a16a80e75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\91ca68b7ec03ea377aba1b0a16a80e75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\917217b58829a121dffc5795471f17af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\917217b58829a121dffc5795471f17af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f35b89bc63ee23f32f9efdcf8f5c403e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f35b89bc63ee23f32f9efdcf8f5c403e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1e8a45e3dfb959fcf1ca5488099602dc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1e8a45e3dfb959fcf1ca5488099602dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\66cf6684b478e375b73a210870ff6dc2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\66cf6684b478e375b73a210870ff6dc2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2cef8eafd81d0197207fa46abccc4338\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2cef8eafd81d0197207fa46abccc4338\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\57cc6f5c2249e0264b4ee923d78d2235\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\57cc6f5c2249e0264b4ee923d78d2235\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e24489d15c0276bd0473a072dc8dd9bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e24489d15c0276bd0473a072dc8dd9bd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d60e2b68cfbf7f16223e5b4742068f84\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d60e2b68cfbf7f16223e5b4742068f84\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\49235eab77913106798f28738db6c9f7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\49235eab77913106798f28738db6c9f7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3d5a5a1213912542646f6878de5a456d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3d5a5a1213912542646f6878de5a456d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5d56f282f7a447767977db1277b85702\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5d56f282f7a447767977db1277b85702\AndroidManifest.xml:20:5-44
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
-		INJECTED from D:\github\inv-rfid\inventaire-rfid\inventaire-rfid\RFIDSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml

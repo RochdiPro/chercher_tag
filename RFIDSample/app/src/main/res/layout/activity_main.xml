@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="10"
-        android:background="@android:color/holo_orange_dark"
+        android:background="@color/colorPrimary"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -80,8 +80,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text=""
                     android:background="@drawable/ic_connecter_foreground"
+                    android:text=""
                     android:textColor="@color/colorWhite" />
             </LinearLayout>
 
@@ -100,8 +100,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text=""
                     android:background="@drawable/ic_chercher_foreground"
+                    android:text=""
                     android:textColor="@color/colorWhite" />
             </LinearLayout>
 
@@ -129,7 +129,7 @@
                 android:gravity="center_vertical|center_horizontal"
                 android:text="Nombre"
                 android:textAppearance="@android:style/TextAppearance.Material.Large"
-                android:textColor="@android:color/holo_orange_dark" />
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView_total_count_ea"
@@ -139,7 +139,7 @@
                 android:gravity="center_vertical|center_horizontal"
                 android:text="0 "
                 android:textAppearance="@android:style/TextAppearance.Material.Medium"
-                android:textColor="@android:color/holo_orange_dark" />
+                android:textColor="@color/colorPrimary" />
 
             <Button
                 android:id="@+id/btn_res"
@@ -194,7 +194,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="  Export"
+                    android:text="Export"
+                    android:textAlignment="center"
                     android:textColor="@color/colorWhite"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -223,30 +224,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text=" Ouvrire"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btn_chercher"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@android:drawable/ic_menu_search" />
-
-                <TextView
-                    android:id="@+id/chercher_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="     TAG"
+                    android:text="Ouvrire"
+                    android:textAlignment="center"
                     android:textColor="@color/colorWhite"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -319,7 +298,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="    Lister"
+                    android:text="Lister"
+                    android:textAlignment="center"
                     android:textColor="@color/colorWhite"
                     android:textSize="18sp" />
 
@@ -349,7 +329,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="   Vider"
+                    android:text="Vider"
+                    android:textAlignment="center"
                     android:textColor="@color/colorWhite"
                     android:textSize="18sp" />
 

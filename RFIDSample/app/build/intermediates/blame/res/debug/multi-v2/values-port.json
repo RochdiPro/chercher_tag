@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\github\\inv-rfid\\inventaire-rfid\\inventaire-rfid\\RFIDSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "D:\\github\\chercher_tag\\RFIDSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\8a3f5557448c7187542040b8429575ae\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\048900975f96363eb4e0562f677a1ab0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

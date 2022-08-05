@@ -289,7 +289,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rfidManager.SetCustomIntentConfig(customIntentConfig);
 
         IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_ACL_DISCONNECTED);
-        registerReceiver(broadcastReceiver, filter);
+//        registerReceiver(broadcastReceiver, filter);
 
         filter = new IntentFilter(RFIDConst.ResultType.INTENT_EVENT);
         registerReceiver(broadcastReceiver, filter);
@@ -342,13 +342,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_res = (Button) findViewById(R.id.btn_res);
 
 
-        btn_chercher = (Button) findViewById(R.id.btn_chercher);
-        btn_chercher.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                 ischerche = !(ischerche) ;
-                if(ischerche) {  startRfidcherche(); }
-                else  {  stopRfidcherche();  }
-            }});
 
 
         buttonScanDelete = (Button) findViewById(R.id.button_scan_delete);
@@ -358,8 +351,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         textViewConnectedDevice = (TextView) findViewById(R.id.textView_connected_device);
         textViewTotalScanCount = (TextView) findViewById(R.id.textView_total_count_ea);
         open_text = (TextView) findViewById(R.id.open_text);
-        chercher_text = (TextView) findViewById(R.id.chercher_text);
-        lister_text =(TextView) findViewById(R.id.lister_text);
+         lister_text =(TextView) findViewById(R.id.lister_text);
 
         baseAdapterInventoryListView = new BaseAdapter_Inventory_ListView(this);
         inventoryListView = (ListView) findViewById(R.id.listview_inventory);
@@ -599,7 +591,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     //setTextOpenCloseButton("Open");
                     buttonOpen.setBackgroundResource(R.drawable.ic_open_foreground);
                     StringBuilder stringBuilder = new StringBuilder();
-                    stringBuilder.append( " Ouvrire");
+                    stringBuilder.append( "Ouvrire");
                     open_text.setText(stringBuilder);
 
 
@@ -612,7 +604,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //setTextOpenCloseButton("Close");
                         buttonOpen.setBackgroundResource(R.drawable.ic_deconnecter_foreground);
                         StringBuilder stringBuilder = new StringBuilder();
-                        stringBuilder.append( " Fermer");
+                        stringBuilder.append( "Fermer");
                         open_text.setText(stringBuilder);
                         deviceConfigSetting();
                     } else {
@@ -663,7 +655,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     //setTextRFIDButton("STOP");
                     buttonScanRFID.setBackgroundResource(R.drawable.ic_close_rfid_foreground);
                     StringBuilder stringBuilder = new StringBuilder();
-                    stringBuilder.append( "   Stop");
+                    stringBuilder.append( "Stop");
                     lister_text.setText(stringBuilder);
                 }
             });
@@ -681,7 +673,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                    // setTextRFIDButton("RFID");
                     buttonScanRFID.setBackgroundResource(R.drawable.ic_rfid_foreground);
                     StringBuilder stringBuilder = new StringBuilder();
-                    stringBuilder.append( "   Lister");
+                    stringBuilder.append( "Lister");
                     lister_text.setText(stringBuilder);
                 }
             });

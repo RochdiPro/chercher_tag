@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <Button
+                android:id="@+id/btn_inv"
+                android:layout_width="match_parent"
+                android:layout_height="189dp"
+                android:background="?android:attr/actionModeFindDrawable"
+                android:backgroundTint="@color/colorSplashBackground" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inventaire"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/btn_cher"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:background="@android:drawable/ic_search_category_default"
+                android:backgroundTint="@color/colorSplashBackground" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chercher"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
