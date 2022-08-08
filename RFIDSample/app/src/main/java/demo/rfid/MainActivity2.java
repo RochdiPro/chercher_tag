@@ -409,7 +409,7 @@ class IncomingHandlerCallback implements Handler.Callback {
 
     private void runDeviceSearchActivity() {
         Intent intent;
-        intent = new Intent(getApplicationContext(), DeviceSearchActivity.class);
+        intent = new Intent(getApplicationContext(), DeviceSearchActivity2.class);
         startActivity(intent);
     }
 
@@ -665,7 +665,7 @@ class IncomingHandlerCallback implements Handler.Callback {
                     // setTextRFIDButton("RFID");
                     buttonScanRFID.setBackgroundResource(R.drawable.ic_rfid_foreground);
                     StringBuilder stringBuilder = new StringBuilder();
-                    stringBuilder.append( "Lister");
+                    stringBuilder.append( "Chercher");
                     lister_text.setText(stringBuilder);
                 }
             });

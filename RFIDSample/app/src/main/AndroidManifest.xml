@@ -8,7 +8,8 @@
         android:label="Infonet RFID"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".menu2"></activity>
+        <activity android:name=".DeviceSearchActivity2"></activity>
+        <activity android:name=".menu2" />
         <activity android:name=".MainActivity2" />
         <activity
             android:name=".SplashActivity"
@@ -43,10 +44,10 @@
             android:name="device.sdk"
             android:required="true" />
     </application>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
 
 </manifest>

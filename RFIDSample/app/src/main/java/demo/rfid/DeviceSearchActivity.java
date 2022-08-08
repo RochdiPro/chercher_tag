@@ -308,7 +308,7 @@ public class DeviceSearchActivity extends AppCompatActivity implements View.OnCl
                     .setCancelable(false)
                     .setPositiveButton("Relier", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int whichButton) {
-                            MainActivity2.setConnect(deviceMacAddr, deviceName);
+                            MainActivity.setConnect(deviceMacAddr, deviceName);
                             Handler handler = new Handler();
                             final ProgressDialog progressDialog =
                                     ProgressDialog.show(DeviceSearchActivity.this, "Connexion de l'appareil: " + deviceMacAddr, "S'il vous plaît, attendez.");

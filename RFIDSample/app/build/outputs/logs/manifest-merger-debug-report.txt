@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:2:1-11:12
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-53:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\048900975f96363eb4e0562f677a1ab0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\07dd7d0f5ae57cd7f50eaed6cbba49d8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d476a41a6b97c51ab724cef75d2fcd19\AndroidManifest.xml:17:1-22:12
@@ -35,29 +35,29 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dell\.gradle\cache
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\49235eab77913106798f28738db6c9f7\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3d5a5a1213912542646f6878de5a456d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5d56f282f7a447767977db1277b85702\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:3:5-24
 		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:5:5-45:19
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:9:5-20
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:5:5-46:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0c44defb4bfcfda4279d6ef1200d2d40\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0c44defb4bfcfda4279d6ef1200d2d40\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\917217b58829a121dffc5795471f17af\AndroidManifest.xml:22:5-23:19
@@ -74,94 +74,98 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dell\.grad
 		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:10:9-40
+activity#demo.rfid.DeviceSearchActivity2
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:11:9-68
+	android:name
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:11:19-56
 activity#demo.rfid.menu2
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:11:9-52
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:12:9-43
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:11:19-40
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:12:19-40
 activity#demo.rfid.MainActivity2
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:12:9-51
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:13:9-51
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:12:19-48
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:13:19-48
 activity#demo.rfid.SplashActivity
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:13:9-22:20
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:14:9-23:20
 	android:screenOrientation
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:15:13-49
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:16:13-49
 	android:theme
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:16:13-60
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:17:13-60
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:14:13-43
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:15:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:21:27-74
 activity#demo.rfid.MainActivity
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:23:9-26:59
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:24:9-27:59
 	android:screenOrientation
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:25:13-49
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:26:13-49
 	android:theme
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:26:13-56
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:27:13-56
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:25:13-41
 activity#demo.rfid.DeviceSearchActivity
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:27:9-30:59
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:28:9-31:59
 	android:screenOrientation
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:30:13-49
 	android:theme
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:28:13-49
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:29:13-49
 provider#android.support.v4.content.FileProvider
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:32:9-40:20
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:33:9-41:20
 	android:grantUriPermissions
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:36:13-47
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:37:13-47
 	android:authorities
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:34:13-69
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:35:13-69
 	android:exported
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:33:13-67
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:34:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:37:13-39:58
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:38:13-40:58
 	android:resource
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:39:17-55
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:40:17-55
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:38:17-67
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:39:17-67
 uses-library#device.sdk
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:42:9-44:39
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:43:9-45:39
 	android:required
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:44:13-36
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:45:13-36
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:43:13-38
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:46:5-81
-	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:46:22-78
-uses-permission#android.permission.BLUETOOTH
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:47:5-68
-	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:47:22-65
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:44:13-38
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:48:5-74
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:47:5-74
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:48:22-71
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:47:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:50:5-81
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:48:5-81
 	android:name
-		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:50:22-78
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:48:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:49:5-81
+	android:name
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:49:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:51:5-68
+	android:name
+		ADDED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml:51:22-65
 uses-sdk
 INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
 INJECTED from D:\github\chercher_tag\RFIDSample\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b753b078918de580707e5918809cc5d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\ca447e92eac4c2c78cb4b99c9b0e759d\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\048900975f96363eb4e0562f677a1ab0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\048900975f96363eb4e0562f677a1ab0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\07dd7d0f5ae57cd7f50eaed6cbba49d8\AndroidManifest.xml:20:5-44

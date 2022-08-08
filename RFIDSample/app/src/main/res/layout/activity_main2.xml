@@ -122,14 +122,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="89dp"
+                android:layout_height="154dp"
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn_res"
-                    android:layout_width="354dp"
-                    android:layout_height="96dp"
+                    android:layout_width="460dp"
+                    android:layout_height="160dp"
                     android:layout_weight="1"
                     android:background="@color/colorWhite" />
 
@@ -147,18 +147,18 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="63dp"
+                android:layout_height="151dp"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="88dp">
 
                     <android.support.design.widget.TextInputEditText
                         android:id="@+id/epc"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="99dp"
                         android:hint="Code"
                         android:text="3400003003411000000000000005" />
                 </android.support.design.widget.TextInputLayout>
@@ -167,24 +167,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="273dp"
+                android:layout_height="117dp"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="CODE"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="30sp" />
-
-                <TextView
                     android:id="@+id/tag"
                     android:layout_width="match_parent"
-                    android:layout_height="84dp"
+                    android:layout_height="33dp"
                     android:layout_weight="1"
                     android:textAlignment="center"
                     android:textSize="18sp" />
