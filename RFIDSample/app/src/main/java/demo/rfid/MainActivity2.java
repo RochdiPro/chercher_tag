@@ -194,8 +194,10 @@ class IncomingHandlerCallback implements Handler.Callback {
     Handler mhandler = new Handler();
     private RFIDCallback mRFIDCallback = new RFIDCallback(mhandler) {
         public void onNotifyReceivedPacket(RecvPacket recvPacket){
-            Log.i("RFID_callbacks","onNotifyReceivedPacket");
-            Log.i("state","onNotifyChangedState onNotifyReceivedPacket cccccccccc: ["+recvPacket+"]");
+            System.out.println(recvPacket.RecvString);
+            
+           // Log.i("RFID_callbacks","onNotifyReceivedPacket");
+          //  Log.i("state","onNotifyChangedState onNotifyReceivedPacket  : ["+recvPacket+"]");
 
             if (!isConnected()) {
                 Log.i("MainActivity", "Device not connected.");
@@ -435,7 +437,7 @@ class IncomingHandlerCallback implements Handler.Callback {
                 // stopRfidcherche();
                 btn_res.setBackgroundResource(R.color.ic_deconnecter_background);
             }
-            System.out.println(data);
+
 
             switch(Integer.parseInt(data.split(",")[1].split("=")[1])) {
                 case 32: btn_res.setBackgroundResource(R.color.colorAccent);   break;
@@ -459,11 +461,10 @@ class IncomingHandlerCallback implements Handler.Callback {
                 case 15: btn_res.setBackgroundResource(R.color.ic_deconnecter_background);   break;
                 case 14: btn_res.setBackgroundResource(R.color.ic_deconnecter_background);   break;
                 case 13: btn_res.setBackgroundResource(R.color.ic_deconnecter_background);   break;
+                case 12: btn_res.setBackgroundResource(R.color.ic_deconnecter_background);   break;
+                case 11:  btn_res.setBackgroundResource(R.color.ic_deconnecter_background);    break;
+                case 10:  btn_res.setBackgroundResource(R.color.ic_deconnecter_background);    break;
 
-
-                case 12: btn_res.setBackgroundResource(R.color.ic_connecter_background);   break;
-                case 11:  btn_res.setBackgroundResource(R.color.ic_connecter_background);    break;
-                case 10:  btn_res.setBackgroundResource(R.color.ic_connecter_background);    break;
                 case 9:  btn_res.setBackgroundResource(R.color.ic_connecter_background);    break;
                 case 8:  btn_res.setBackgroundResource(R.color.ic_connecter_background);    break;
                 case 7:  btn_res.setBackgroundResource(R.color.ic_connecter_background);    break;
@@ -496,6 +497,7 @@ class IncomingHandlerCallback implements Handler.Callback {
     }
 
     private void clearScanData() {
+
         baseAdapterInventoryListView.clear();
         updateData();
     }
@@ -561,17 +563,17 @@ class IncomingHandlerCallback implements Handler.Callback {
                 break;
             case R.id.button_open:
                 if (isOpened) {
-                    rfidManager.Close();
+                     rfidManager.Close();
                     if (mConnectedDevice != DEVICE_BT) {
                         deviceConnected = false;
                     }
                     isOpened = false;
                     //setTextOpenCloseButton("Open");
+
                     buttonOpen.setBackgroundResource(R.drawable.ic_open_foreground);
                     StringBuilder stringBuilder = new StringBuilder();
-                    stringBuilder.append( " Ouvrire");
+                    stringBuilder.append( "Ouvrire");
                     open_text.setText(stringBuilder);
-
 
                 } else {
                     if (RFIDConst.CommandErr.SUCCESS == rfidManager.Open(mConnectedDevice)) {
@@ -580,15 +582,19 @@ class IncomingHandlerCallback implements Handler.Callback {
                         }
                         isOpened = true;
                         //setTextOpenCloseButton("Close");
+
                         buttonOpen.setBackgroundResource(R.drawable.ic_deconnecter_foreground);
                         StringBuilder stringBuilder = new StringBuilder();
                         stringBuilder.append( " Fermer");
                         open_text.setText(stringBuilder);
                         deviceConfigSetting();
+
                     } else {
                         Log.e(TAG, "Open failed!!!");
                     }
                 }
+
+
                 //updateUI();
                 break;
 
@@ -626,10 +632,12 @@ class IncomingHandlerCallback implements Handler.Callback {
             //rfidManager.GetSearchList();
             //  int x = rfidManager.SingleSearch(28, "3400003003411000000000000005", 9, 3);
 
-             clearScanData();
+
+
+
+            clearScanData();
             isRfidRunning = true;
               epc = findViewById(R.id.epc);
-
               tag = (TextView) findViewById(R.id.tag);
 
             String tagid =  epc.getText().toString() ;
